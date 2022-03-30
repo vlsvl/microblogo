@@ -1,0 +1,13 @@
+GET https://users.microtest.test/sanctum/csrf-cookie
+
+
+###
+POST https://users.microtest.test/register
+Content-Type: application/json
+{
+  "name": "sample",
+  "email": "sample@test.ru",
+  "password": "12345678",
+  "confirm_password": "12345678"
+}
+
