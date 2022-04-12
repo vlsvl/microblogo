@@ -1,9 +1,7 @@
-# Простой блог на микросервисах
+# Simple microservices architecture with laravel and Nuxt2
 
-## Установка
+## Feature
+Services setup on subdomains.
 
-Просмотр доступных make комманд - make help (или просто make)
-
-<kbd>make local</kbd> производит необходимые установки на сервисе и запускает локальное окружение.
-
-> В каждом микросервисе есть свой makefile с дополнительными коммандами.
+Add to hosts: 127.0.0.1 users.microblogo.test microblogo.test
+Nuxt available on http://microtest.test.
